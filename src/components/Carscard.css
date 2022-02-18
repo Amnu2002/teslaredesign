@@ -1,0 +1,55 @@
+
+.carscard-main{
+	height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0.2rem;
+}
+.carscard-main>img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.carscard-main .layout {
+	position: absolute;
+    top: 0;
+	max-width: 600px;
+	padding: 50px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+	color: rgb(255, 254, 254);
+}
+.carscard-main .layout::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background: rgba(0, 0, 0, .5);
+	background-attachment: fixed;
+    opacity: 0.8;
+    
+}
+.carscard-main .layout .p1 {
+	position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.f-h1{
+    color: red;
+    font-size: 5rem;
+}
+.carscard-main .layout button {
+	position: relative;
+}
+
+@media screen and (max-width:420px) {
+    .carscard-main>img{
+        height: 65vh;
+    }
+    .carscard-main{
+        height: 65vh;
+    }
+    
+}

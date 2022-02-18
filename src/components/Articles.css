@@ -1,0 +1,12 @@
+.test{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 3vh;
+    
+}
+.recommendation{
+    font-size: larger;
+    text-align: center;
+    margin-top: 5vh;
+}

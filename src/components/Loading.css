@@ -1,0 +1,8 @@
+#loading-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: 300;
+    pointer-events: none;
+}
